@@ -1,0 +1,18 @@
+{
+  "name": "spb-lan/ice-http-fork",
+  "description": "Ice Http",
+  "type": "module",
+  "license": "BSD-4-Clause",
+  "authors": [
+    {
+      "name": "emil",
+      "email": "ash_williams@mail.ru"
+    }
+  ],
+  "require": {
+    "spb-lan/ice-core-fork": "0.0.*"
+  },
+  "bin": [
+    "bin/ice-index.php"
+  ]
+}
