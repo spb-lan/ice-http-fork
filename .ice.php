@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'vendor' => 'ifacesoft',
-    'name' => 'ice-http',
+    'vendor' => 'spb-lan',
+    'name' => 'ice-http-fork',
     'namespace' => 'Ifacesoft\Ice\Http\\',
     'alias' => 'Ihttp',
     'description' => 'Ice Http App',
@@ -26,16 +26,16 @@ return [
     ],
     'environments' => [
         'prod' => [
-            'pattern' => '/^ice-http\.prod\.local$/',
+            'pattern' => '/^ice-http-fork\.prod\.local$/',
         ],
         'test' => [
-            'pattern' => '/^ice-http\.test\.local$/',
+            'pattern' => '/^ice-http-fork\.test\.local$/',
         ],
         'dev' => [
-            'pattern' => '/^ice-http\.dev\.local$/',
+            'pattern' => '/^ice-http-fork\.dev\.local$/',
         ],
     ],
     'modules' => [
-        'ifacesoft/ice-core' => [],
+        'spb-lan/ice-core' => [],
     ],
 ];
